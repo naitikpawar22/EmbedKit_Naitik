@@ -109,7 +109,11 @@ This command generates:
 ```text
 ringbuf.exe
 ```
+If linux OS use we use:
 
+```text
+./ringbuf
+```
 ---
 
 # How to Run (Windows CMD)
