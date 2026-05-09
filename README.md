@@ -2,20 +2,44 @@
 
 ## Embedded C Ring Buffer (Circular Buffer) Implementation
 
-This project implements a fixed-size Ring Buffer (Circular FIFO Queue) in Embedded C using standard C99.  
-The assignment demonstrates buffer management techniques commonly used in embedded firmware systems such as UART communication, interrupt-driven data transfer, and producer-consumer architectures.
+Author: Naitik Pawar
+
+---
+
+# Module Description
+
+- ringbuf.c - Implements a fixed-size circular ring buffer (FIFO queue) for uint8_t data with full/empty detection and optimized wrap-around logic.
+
+---
+
+# Project Overview
+
+This project implements a Ring Buffer (Circular Buffer) in Embedded C using standard C99.
+
+A ring buffer is commonly used in embedded systems for:
+- UART communication
+- Serial data handling
+- Producer-consumer systems
+- Interrupt Service Routine (ISR) buffering
+- Real-time firmware applications
+
+The implementation demonstrates:
+- FIFO (First In First Out) operation
+- Buffer full protection
+- Buffer empty protection
+- Circular wrap-around handling
+- Efficient embedded-style memory management
 
 ---
 
 # Features
 
 - Fixed-size circular buffer (8 bytes)
-- FIFO (First In First Out) operation
-- Buffer full detection
-- Buffer empty detection
+- FIFO data handling
+- Full and empty state detection
 - Safe read/write operations
-- Count tracking
-- Efficient wrap-around using bitwise AND optimization
+- Byte count tracking
+- Bitwise wrap-around optimization
 - Embedded-oriented coding practices
 - Zero compiler warnings and errors
 
